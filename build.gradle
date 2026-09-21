@@ -11,11 +11,6 @@ buildscript {
 
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-repositories {
-    maven { url = 'https://maven.blamejared.com' }
-    mavenCentral()
-}
-
 version = '1.1.2'
 group = 'com.zachsem.simpleplanesfixes'
 archivesBaseName = 'SimplePlanesFixes-1.12.2'
@@ -31,15 +26,19 @@ minecraft {
 processResources {
     inputs.property 'version', project.version
     inputs.property 'mcversion', project.minecraft.version
+
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
         expand 'version': project.version, 'mcversion': '1.12.2'
     }
+
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
 }
 
+
 dependencies {
+    // Compile against the stable JEI 1.12 API. JEI remains optional at runtime.
     deobfCompile "mezz.jei:jei_1.12.2:4.16.1.302:api"
 }
