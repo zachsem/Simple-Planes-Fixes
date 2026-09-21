@@ -25,11 +25,11 @@ This includes inactive or unavailable:
 - Fruit Trees (`ft_*`) aircraft
 - Oh The Biomes You'll Go (`byg_*`) aircraft
 - unsupported Biomes O' Plenty aircraft
-- Crimson and Warped aircraft when no compatible backport provides the complete material set
+- Crimson and Warped aircraft when the expected Future MC material set is unavailable
 
 ### Crimson and Warped compatibility
 
-The addon contains conditional compatibility recipes for Crimson and Warped aircraft. They are enabled only when the expected backported wood components and Netherite item are actually registered. Otherwise the aircraft remain hidden instead of appearing as unusable entries.
+The addon contains conditional compatibility recipes for Crimson and Warped aircraft using the `futuremc` registry namespace. They are enabled only when the required Future MC planks, slabs, stairs, and Netherite ingot are actually registered. If a Future MC build does not provide that complete material set, the aircraft remain hidden instead of appearing as unusable entries.
 
 ## Requirements
 
@@ -42,7 +42,7 @@ The addon contains conditional compatibility recipes for Crimson and Warped airc
 **Optional integrations**
 
 - Biomes O' Plenty
-- Future MC or another compatible source of the expected backported materials
+- Future MC — compatibility activates only when the required `futuremc` Crimson/Warped materials are registered
 - Just Enough Items (JEI)
 
 JEI is optional. When present, the addon uses JEI's supported ingredient blacklist API to hide unavailable integration aircraft.
