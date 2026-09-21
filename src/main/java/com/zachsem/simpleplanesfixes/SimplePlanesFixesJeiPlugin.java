@@ -9,14 +9,18 @@ import net.minecraft.item.ItemStack;
 
 @JEIPlugin
 public final class SimplePlanesFixesJeiPlugin implements IModPlugin {
-    public SimplePlanesFixesJeiPlugin() {}
+    public SimplePlanesFixesJeiPlugin() {
+    }
 
     @Override
     public void register(IModRegistry registry) {
         IIngredientBlacklist blacklist = registry.getJeiHelpers().getIngredientBlacklist();
+
         for (String path : ConditionalAircraft.getHiddenAircraftIds()) {
             Item item = ConditionalAircraft.getSimplePlanesItem(path);
-            if (item != null) blacklist.addIngredientToBlacklist(new ItemStack(item));
+            if (item != null) {
+                blacklist.addIngredientToBlacklist(new ItemStack(item));
+            }
         }
     }
 }
