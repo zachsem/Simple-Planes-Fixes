@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a crash, broken recipe, or incorrect integration behavior
+title: "[Bug]: "
+body:
+  - type: input
+    id: minecraft
+    attributes:
+      label: Minecraft and Forge versions
+      placeholder: "Minecraft 1.12.2, Forge 14.23.5.2859"
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Mod versions
+      description: Include Simple Planes, Simple Planes Fixes, and relevant integration mods.
+    validations:
+      required: true
+  - type: input
+    id: aircraft
+    attributes:
+      label: Aircraft registry ID
+      description: If applicable, enable F3+H and provide the full registry ID.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log or crash report
+      description: Drag and drop latest.log or the crash report here.
+    validations:
+      required: true

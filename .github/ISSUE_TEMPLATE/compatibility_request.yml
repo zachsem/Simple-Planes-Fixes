@@ -1,0 +1,23 @@
+name: Compatibility request
+description: Request support for a 1.12.2 mod or backport that provides relevant aircraft materials
+title: "[Compatibility]: "
+body:
+  - type: input
+    id: mod
+    attributes:
+      label: Mod name and version
+    validations:
+      required: true
+  - type: textarea
+    id: materials
+    attributes:
+      label: Relevant registered materials
+      description: List the wood/material items and registry IDs Simple Planes could use.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: What Simple Planes content should this enable or repair?
+    validations:
+      required: true

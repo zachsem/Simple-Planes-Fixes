@@ -1,0 +1,52 @@
+{
+    "conditions": [
+        {
+            "type": "forge:and",
+            "values": [
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "futuremc:warped_planks"
+                },
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "futuremc:warped_stairs"
+                },
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "futuremc:netherite_ingot"
+                }
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "group": "simpleplanes:helicopter",
+    "pattern": [
+        "iIi",
+        "IFO",
+        "OTT"
+    ],
+    "key": {
+        "i": {
+            "item": "futuremc:netherite_ingot",
+            "data": 0
+        },
+        "I": {
+            "item": "simpleplanes:propeller"
+        },
+        "F": {
+            "item": "simpleplanes:furnace_engine"
+        },
+        "O": {
+            "item": "futuremc:warped_stairs",
+            "data": 0
+        },
+        "T": {
+            "item": "futuremc:warped_planks",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "simpleplanes:warped_helicopter",
+        "count": 1
+    }
+}

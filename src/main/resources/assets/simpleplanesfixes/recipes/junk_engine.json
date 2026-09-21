@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "III",
+        "IFI",
+        "III"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:coal",
+            "data": 0
+        },
+        "F": {
+            "item": "simpleplanes:furnace_engine"
+        }
+    },
+    "result": {
+        "item": "simpleplanes:junk_engine"
+    }
+}

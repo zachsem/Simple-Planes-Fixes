@@ -1,0 +1,46 @@
+{
+    "conditions": [
+        {
+            "type": "forge:and",
+            "values": [
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "futuremc:warped_slab"
+                },
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "futuremc:netherite_ingot"
+                }
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "group": "simpleplanes:plane",
+    "pattern": [
+        " WF",
+        "PEB",
+        " W "
+    ],
+    "key": {
+        "W": {
+            "item": "futuremc:warped_slab",
+            "data": 0
+        },
+        "F": {
+            "item": "minecraft:furnace"
+        },
+        "E": {
+            "item": "simpleplanes:furnace_engine"
+        },
+        "B": {
+            "item": "futuremc:netherite_ingot",
+            "data": 0
+        },
+        "P": {
+            "item": "simpleplanes:propeller"
+        }
+    },
+    "result": {
+        "item": "simpleplanes:warped_plane"
+    }
+}

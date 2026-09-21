@@ -1,0 +1,39 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "biomesoplenty"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "group": "simpleplanes:plane",
+    "pattern": [
+        " WF",
+        "PEB",
+        " WN"
+    ],
+    "key": {
+        "W": {
+            "item": "biomesoplenty:wood_slab_1",
+            "data": 3
+        },
+        "F": {
+            "item": "minecraft:furnace"
+        },
+        "B": {
+            "item": "biomesoplenty:boat_hellbark"
+        },
+        "E": {
+            "item": "simpleplanes:furnace_engine"
+        },
+        "P": {
+            "item": "simpleplanes:propeller"
+        },
+        "N": {
+            "item": "minecraft:diamond_block"
+        }
+    },
+    "result": {
+        "item": "simpleplanes:bop_hellbark_plane"
+    }
+}
