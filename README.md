@@ -2,6 +2,14 @@
 
 **Simple Planes Fixes** is an unofficial bug-fix and compatibility addon for **Simple Planes 3.0.1.7 on Minecraft 1.12.2**.
 
+## Official download
+
+Installable releases are published on **CurseForge**:
+
+**[Download Simple Planes Fixes on CurseForge](https://www.curseforge.com/minecraft/mc-mods/simple-planes-fixes)**
+
+> **Important:** GitHub's **Code → Download ZIP** option downloads the project source code, not the installable mod. Download the release `.jar` from CurseForge and place that file in your `mods` folder.
+
 The original 1.12.2 release contains several broken crafting recipes and optional-mod integrations caused by incorrect item IDs, missing metadata, and aircraft being registered even when the material set they depend on is unavailable. This addon repairs those issues without replacing or modifying the original Simple Planes jar.
 
 ## What it fixes
@@ -50,8 +58,9 @@ JEI is optional. When present, the addon uses JEI's supported ingredient blackli
 ## Installation
 
 1. Install **Simple Planes 3.0.1.7**.
-2. Place the **Simple Planes Fixes** jar in the same `mods` folder.
-3. Install it on both client and server.
+2. Download the **Simple Planes Fixes** release `.jar` from CurseForge.
+3. Place the jar in the same `mods` folder.
+4. Install it on both client and server.
 
 Do not remove or edit the original Simple Planes jar. This project is a compatibility layer and requires the original mod.
 
