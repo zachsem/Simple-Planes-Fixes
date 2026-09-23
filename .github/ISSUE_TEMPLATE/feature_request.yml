@@ -1,0 +1,32 @@
+name: Feature request
+description: Suggest a new improvement or quality-of-life change for Simple Planes Fixes
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: feature
+    attributes:
+      label: What would you like added or changed?
+      description: Describe the feature or improvement you are requesting.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Explain the current limitation, inconvenience, or use case behind the request.
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Suggested approach
+      description: Optional. If you have an idea for how this could work, describe it here.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This request is for Simple Planes Fixes itself, not a compatibility request for another mod.
+          required: true
+        - label: I checked existing issues for the same request.
+          required: true
