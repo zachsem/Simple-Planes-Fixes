@@ -44,7 +44,7 @@ The addon contains conditional compatibility recipes for Crimson and Warped airc
 **Required**
 
 - Minecraft 1.12.2
-- Forge 14.23.5.2859
+- Forge for Minecraft 1.12.2 — tested with 14.23.5.2859
 - Simple Planes 3.0.1.7
 
 **Optional integrations**
@@ -78,7 +78,7 @@ The goal is to restore functionality clearly intended by the original 1.12.2 rel
 
 ## Credits
 
-- **Simple Planes** — original project by przemykomo and contributors
+- **Simple Planes** — original 1.12.2 authors **adoxentor (adox123)** and **przemyk (przemykomo)**, plus contributors
 - **Biomes O' Plenty**, **Future MC**, **JEI**, **Fruit Trees**, and **Oh The Biomes You'll Go** — respective authors and contributors
 - **Simple Planes Fixes** — zachsem
 
