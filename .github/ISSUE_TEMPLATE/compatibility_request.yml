@@ -1,6 +1,9 @@
 name: Compatibility request
 description: Request support for a 1.12.2 mod or backport that provides relevant aircraft materials
 title: "[Compatibility]: "
+labels:
+  - "type: compatibility"
+  - "status: needs triage"
 body:
   - type: input
     id: mod
@@ -21,3 +24,10 @@ body:
       label: What Simple Planes content should this enable or repair?
     validations:
       required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked existing issues for the same compatibility request.
+          required: true
