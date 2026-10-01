@@ -66,7 +66,7 @@ Do not remove or edit the original Simple Planes jar. This project is a compatib
 
 ## Reporting bugs
 
-Please use the GitHub **Issues** tab. For a useful report, include Minecraft/Forge versions, Simple Planes and fix versions, relevant integration versions, the affected aircraft registry ID when applicable, reproduction steps, and `latest.log` or the crash report.
+Please use [GitHub Issues](https://github.com/zachsem/Simple-Planes-Fixes/issues). For a useful report, include Minecraft/Forge versions, Simple Planes and fix versions, relevant integration versions, the affected aircraft registry ID when applicable, reproduction steps, and `latest.log` or the crash report.
 
 ## Building from source
 
